@@ -24,7 +24,7 @@ boolean isUniqueChars(String str) {
 //解説
 
 /*
-・最初に文字コードがASCIIかUnicodeかを聞く・・・基礎を知ってる感を演出：今回はASCII
+・最初に文字コードがASCIIかUnicodeかを聞く・・・今回はASCII
 ・まず、128よりも文字列が大きければどこかしらで重複しているのでfalseを返す
 ・128個のboolean配列を用意する。
 ・例
